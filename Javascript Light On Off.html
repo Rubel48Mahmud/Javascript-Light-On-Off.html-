@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+
+img{width:150px}
+
+.On{border:none;
+height :50px;
+width:50px;
+color:green;
+outline:none;
+font-size:27px;
+font-weight:bold;
+border-radius: 32px;
+background: #ffffff;
+box-shadow:  5px 5px 21px #cccccc, 
+             -5px -5px 21px #ffffff;}
+             
+.On:hover{border-radius: 50%;
+background: #ffffff;
+box-shadow: inset 13px 13px 20px #b8b8b8, 
+            inset -13px -13px 20px #ffffff;}           
+
+.Off{border:none;
+height :50px;
+width:50px;
+outline:none;
+color:red;
+font-size:24px;
+font-weight:bold;
+border-radius: 32px;
+background: #ffffff;
+box-shadow:  5px 5px 21px #cccccc, 
+             -5px -5px 21px #ffffff;}
+
+.Off:hover{border-radius: 50%;
+background: #ffffff;
+box-shadow: inset 13px 13px 20px #b8b8b8, 
+            inset -13px -13px 20px #ffffff;}
+</style>
+</head>
+<body>
+
+<img id="img" src="download/removebg.png">
+
+
+<button class="On" onclick="document.getElementById('img').src='download/removebgon.png'"> ON</button>
+<button Class="Off" onclick="document.getElementById('img').src='download/removebg.png'"> OFF</button>
+
+</body>
+</html>
